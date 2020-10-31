@@ -4,4 +4,3 @@ h5py
 pandas
 tqdm
 scikit-learn
-d3rlpy

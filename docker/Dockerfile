@@ -1,4 +1,4 @@
-FROM pytorch/pytorch:1.2-cuda10.0-cudnn7-runtime
+FROM nvidia/cuda:11.1-cudnn8-devel-ubuntu18.04
 
 RUN apt-get update && apt-get upgrade -y
 RUN pip install --upgrade pip
